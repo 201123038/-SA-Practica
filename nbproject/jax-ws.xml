@@ -10,6 +10,12 @@
     <service name="Envio">
       <implementation-class>ws.Envio</implementation-class>
     </service>
+    <service name="Importadora">
+      <implementation-class>ws.Importadora</implementation-class>
+    </service>
+    <service name="Sat">
+      <implementation-class>ws.Sat</implementation-class>
+    </service>
   </services>
   <clients/>
 </jax-ws>
